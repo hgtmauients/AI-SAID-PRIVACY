@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Privacy Policy - AI Said</title>
+  <title>Privacy Policy – AI Said</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,53 +11,61 @@
       margin: auto;
       padding: 40px;
       line-height: 1.6;
+      color: #2c3e50;
     }
     h1, h2 {
-      color: #2c3e50;
+      color: #1a1a1a;
     }
   </style>
 </head>
 <body>
   <h1>Privacy Policy for AI Said</h1>
   <p><strong>Effective Date:</strong> July 13, 2025</p>
-  <p>Thank you for using <strong>AI Said</strong>, a Chrome Extension developed by Harrington Maui Enterprises LLC. This Privacy Policy explains how we handle user data when you use our extension.</p>
+
+  <p><strong>AI Said</strong> is a Chrome Extension developed by Harrington Maui Enterprises LLC. This policy explains what data we access, how it’s used, and your rights as a user.</p>
 
   <h2>1. Information We Collect</h2>
-  <p>AI Said <strong>does not collect or store</strong> any personally identifiable information (PII) such as your name, email address, or location.</p>
-  <p>The extension processes your input text (typed or spoken) temporarily to generate responses using language models. Input is:
-    <ul>
-      <li>Not stored or tracked</li>
-      <li>Only transmitted briefly to language APIs (e.g., OpenAI)</li>
-    </ul>
-  </p>
+  <p>AI Said does <strong>not collect or store</strong> personally identifiable information (PII) such as name, email address, IP address, or location.</p>
+  <p>User input (text or speech) is temporarily processed by external APIs to generate responses and is never stored by us. Specifically:</p>
+  <ul>
+    <li>Input is transmitted securely and used solely to generate a single response</li>
+    <li>No tracking or behavioral profiling is performed</li>
+  </ul>
 
-  <h2>2. Permissions</h2>
-  <p>The extension may request the following permissions to function:
-    <ul>
-      <li><code>clipboardWrite</code> – to copy generated text</li>
-      <li><code>microphone</code> – for voice input</li>
-      <li><code>storage</code> – to store local settings</li>
-    </ul>
-    These are only used locally and never stored externally.
-  </p>
+  <h2>2. Permissions Used</h2>
+  <ul>
+    <li><code>clipboardWrite</code> – allows users to copy generated responses</li>
+    <li><code>microphone</code> – enables speech-to-text functionality via the Whisper API</li>
+    <li><code>storage</code> – saves preferences (e.g., theme, tone) locally on your device</li>
+    <li><code>host permissions</code> – required to optionally enhance contextual suggestions on active tabs (never used to collect history or content)</li>
+  </ul>
 
-  <h2>3. Third-Party Services</h2>
-  <p>We use the OpenAI API to generate AI responses from your input. No user data is sold or shared outside this purpose.</p>
+  <h2>3. Services We Use</h2>
+  <ul>
+    <li><strong>OpenAI API</strong>: Used to generate AI responses. User input is sent securely and discarded after processing.</li>
+    <li><strong>Vercel Serverless Functions</strong>: Used as a proxy to handle API requests securely without exposing your OpenAI key. No data is stored.</li>
+    <li><strong>Firebase (optional)</strong>: May be used for anonymous analytics or to sync your local preferences (e.g., saved tones or themes). No PII is recorded.</li>
+  </ul>
 
-  <h2>4. Data Usage Policy</h2>
+  <h2>4. Data Usage & Compliance</h2>
   <ul>
     <li>We do not sell or transfer user data to third parties</li>
-    <li>We do not use data for unrelated purposes</li>
-    <li>We do not use data for credit or financial profiling</li>
+    <li>We do not use data for advertising or unrelated purposes</li>
+    <li>We do not use or transfer data to determine creditworthiness or for lending purposes</li>
   </ul>
 
   <h2>5. User Control</h2>
-  <p>You may uninstall the extension anytime. Local preferences can be reset through the extension.</p>
+  <p>You may uninstall the extension at any time via your browser. Local preferences are stored only on your device and can be cleared from the extension settings.</p>
 
-  <h2>6. Updates</h2>
-  <p>We may update this policy periodically. All changes will be shown on this page.</p>
+  <h2>6. Security</h2>
+  <p>All data is transmitted securely using HTTPS. We do not store or log data on our servers.</p>
 
-  <h2>7. Contact</h2>
-  <p>📧 <strong>admin@aisaid.ai</strong></p>
+  <h2>7. Updates to This Policy</h2>
+  <p>This Privacy Policy may be updated from time to time. Any changes will be posted to this page with the effective date updated accordingly.</p>
+
+  <h2>8. Contact</h2>
+  <p>If you have any questions or concerns about this policy, you may contact us at:<br>
+  📧 <strong>admin@aisaid.ai</strong></p>
 </body>
 </html>
+
